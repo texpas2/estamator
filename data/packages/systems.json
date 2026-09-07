@@ -1,0 +1,159 @@
+{
+  "packages": [
+    {
+      "slug": "electrical-panel-upgrade",
+      "name": "Electrical Service Upgrade to 200 A",
+      "category": "systems",
+      "tier": "standard",
+      "description": "Replace the service panel and mast, re-terminate circuits, add grounding, surge protection and required safety devices.",
+      "variables": [
+        { "key": "new_breakers", "name": "AFCI/GFCI breakers added", "unit": "EA", "default": 8 }
+      ],
+      "items": [
+        { "code": "ELE-010", "qty": "1" },
+        { "code": "ELE-030", "qty": "new_breakers", "note": "A new panel ships with standard breakers; this line covers the AFCI/GFCI devices code now requires." },
+        { "code": "ELE-040", "qty": "1" },
+        { "code": "ELE-050", "qty": "1" },
+        { "code": "ELE-250", "qty": "4" },
+        { "code": "ELE-340", "qty": "1" },
+        { "code": "DRY-210", "qty": "2", "optional": true },
+        { "code": "PNT-020", "qty": "40", "optional": true }
+      ]
+    },
+    {
+      "slug": "whole-home-rewire",
+      "name": "Whole-Home Rewire",
+      "category": "systems",
+      "tier": "premium",
+      "description": "Replace knob-and-tube or aluminum branch wiring throughout, with a new panel, devices and patched finishes.",
+      "variables": [
+        { "key": "floor_area_sf", "name": "Finished floor area", "unit": "SF", "default": 1800 },
+        { "key": "device_count",  "name": "Devices",             "unit": "EA", "default": 90 }
+      ],
+      "items": [
+        { "code": "ELE-140", "qty": "floor_area_sf" },
+        { "code": "ELE-010", "qty": "1" },
+        { "code": "ELE-040", "qty": "1" },
+        { "code": "ELE-210", "qty": "device_count * 0.6" },
+        { "code": "ELE-220", "qty": "device_count * 0.15" },
+        { "code": "ELE-230", "qty": "device_count * 0.25" },
+        { "code": "ELE-250", "qty": "6" },
+        { "code": "LGT-020", "qty": "14" },
+        { "code": "DRY-220", "qty": "floor_area_sf * 0.08" },
+        { "code": "PNT-110", "qty": "floor_area_sf * 0.6" },
+        { "code": "CLN-020", "qty": "floor_area_sf" }
+      ]
+    },
+    {
+      "slug": "hvac-system-replacement",
+      "name": "HVAC System Replacement (Furnace + AC)",
+      "category": "systems",
+      "tier": "standard",
+      "description": "Replace furnace and condenser, reseal and rebalance the duct system, new thermostat and startup.",
+      "variables": [
+        { "key": "duct_lf",     "name": "Duct runs",  "unit": "LF", "default": 180 },
+        { "key": "register_ct", "name": "Registers",  "unit": "EA", "default": 12 }
+      ],
+      "items": [
+        { "code": "HVA-010", "qty": "1" },
+        { "code": "HVA-020", "qty": "1" },
+        { "code": "HVA-060", "qty": "1" },
+        { "code": "INS-130", "qty": "duct_lf" },
+        { "code": "HVA-130", "qty": "register_ct * 0.3" },
+        { "code": "ELE-120", "qty": "1" },
+        { "code": "HVA-320", "qty": "1", "optional": true },
+        { "code": "HVA-310", "qty": "1" }
+      ]
+    },
+    {
+      "slug": "ductless-mini-split-addition",
+      "name": "Ductless Mini-Split Addition",
+      "category": "systems",
+      "tier": "basic",
+      "description": "Add heating and cooling to a space with no ductwork, including a dedicated circuit.",
+      "variables": [
+        { "key": "head_count", "name": "Indoor heads", "unit": "EA", "default": 2 }
+      ],
+      "items": [
+        { "code": "HVA-040", "qty": "head_count" },
+        { "code": "ELE-120", "qty": "1" },
+        { "code": "SID-240", "qty": "10" }
+      ]
+    },
+    {
+      "slug": "water-heater-replacement",
+      "name": "Water Heater Replacement",
+      "category": "systems",
+      "tier": "basic",
+      "description": "Swap a failed water heater with code upgrades: pan, expansion tank, seismic strapping and permit.",
+      "variables": [
+        { "key": "units", "name": "Water heaters", "unit": "EA", "default": 1 }
+      ],
+      "items": [
+        { "code": "PLB-210", "qty": "units" },
+        { "code": "PLB-330", "qty": "2" },
+        { "code": "INS-140", "qty": "12" },
+        { "code": "SIT-320", "qty": "1" }
+      ]
+    },
+    {
+      "slug": "repipe-home",
+      "name": "Whole-Home Repipe",
+      "category": "systems",
+      "tier": "premium",
+      "description": "Replace failing galvanized or polybutylene supply piping throughout, with drywall access patching.",
+      "variables": [
+        { "key": "fixture_count", "name": "Plumbing fixtures", "unit": "EA", "default": 12 },
+        { "key": "supply_lf",     "name": "Supply piping",     "unit": "LF", "default": 320 }
+      ],
+      "items": [
+        { "code": "PLB-010", "qty": "supply_lf" },
+        { "code": "PLB-330", "qty": "fixture_count * 2" },
+        { "code": "INS-140", "qty": "supply_lf * 0.4" },
+        { "code": "DRY-220", "qty": "fixture_count * 8" },
+        { "code": "PNT-110", "qty": "fixture_count * 40" },
+        { "code": "CLN-030", "qty": "1200" }
+      ]
+    },
+    {
+      "slug": "sewer-line-replacement",
+      "name": "Sewer Lateral Replacement",
+      "category": "systems",
+      "tier": "standard",
+      "description": "Excavate, replace the sewer lateral to the main, backfill, compact and restore the surface.",
+      "variables": [
+        { "key": "run_lf", "name": "Lateral length", "unit": "LF", "default": 60 }
+      ],
+      "items": [
+        { "code": "PLB-340", "qty": "1" },
+        { "code": "EXC-030", "qty": "run_lf" },
+        { "code": "PLB-060", "qty": "run_lf" },
+        { "code": "EXC-040", "qty": "run_lf" },
+        { "code": "EXC-120", "qty": "run_lf * 4" },
+        { "code": "LND-020", "qty": "run_lf * 4" },
+        { "code": "CON-120", "qty": "40", "optional": true }
+      ]
+    },
+    {
+      "slug": "basement-waterproofing",
+      "name": "Basement Waterproofing System",
+      "category": "systems",
+      "tier": "standard",
+      "description": "Interior drain tile with sump pump, crack sealing, wall coating and a dehumidifier.",
+      "variables": [
+        { "key": "perimeter_lf", "name": "Treated perimeter", "unit": "LF", "default": 120 },
+        { "key": "wall_area_sf", "name": "Wall area",         "unit": "SF", "default": 960 },
+        { "key": "crack_lf",     "name": "Cracks to seal",    "unit": "LF", "default": 24 }
+      ],
+      "items": [
+        { "code": "WPF-020", "qty": "perimeter_lf" },
+        { "code": "PLB-240", "qty": "1" },
+        { "code": "WPF-040", "qty": "crack_lf" },
+        { "code": "WPF-030", "qty": "wall_area_sf" },
+        { "code": "WPF-130", "qty": "1", "optional": true },
+        { "code": "LND-250", "qty": "40" },
+        { "code": "SIT-310", "qty": "1" }
+      ]
+    }
+  ]
+}

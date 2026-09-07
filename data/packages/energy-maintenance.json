@@ -1,0 +1,160 @@
+{
+  "packages": [
+    {
+      "slug": "attic-insulation-air-seal",
+      "name": "Attic Air Sealing & Insulation",
+      "category": "energy",
+      "tier": "basic",
+      "description": "Remove degraded insulation, air seal the attic plane, add baffles and blow to R-49.",
+      "variables": [
+        { "key": "attic_sf", "name": "Attic floor area", "unit": "SF", "default": 1200 }
+      ],
+      "items": [
+        { "code": "INS-060", "qty": "attic_sf" },
+        { "code": "INS-110", "qty": "attic_sf" },
+        { "code": "INS-030", "qty": "attic_sf" },
+        { "code": "ROF-240", "qty": "40", "optional": true },
+        { "code": "HVA-210", "qty": "1", "optional": true },
+        { "code": "CLN-220", "qty": "1", "optional": true }
+      ]
+    },
+    {
+      "slug": "solar-pv-with-battery",
+      "name": "Solar PV with Battery Backup",
+      "category": "energy",
+      "tier": "premium",
+      "description": "Rooftop PV array with battery storage, backup loads panel, interconnection and commissioning.",
+      "variables": [
+        { "key": "module_count",  "name": "Solar modules",  "unit": "EA", "default": 24 },
+        { "key": "battery_count", "name": "Batteries",      "unit": "EA", "default": 1 }
+      ],
+      "items": [
+        { "code": "SOL-010", "qty": "module_count" },
+        { "code": "SOL-020", "qty": "1" },
+        { "code": "SOL-110", "qty": "battery_count" },
+        { "code": "SOL-130", "qty": "1" },
+        { "code": "SOL-040", "qty": "1" },
+        { "code": "ELE-010", "qty": "1", "optional": true },
+        { "code": "ROF-010", "qty": "60", "optional": true }
+      ]
+    },
+    {
+      "slug": "ev-charger-install",
+      "name": "EV Charger Installation",
+      "category": "energy",
+      "tier": "basic",
+      "description": "Level 2 charger on a dedicated circuit, with load management when the panel is near capacity.",
+      "variables": [
+        { "key": "chargers", "name": "Chargers", "unit": "EA", "default": 1 },
+        { "key": "feeder_lf", "name": "Detached-structure feeder", "unit": "LF", "default": 0 }
+      ],
+      "items": [
+        { "code": "SOL-210", "qty": "chargers" },
+        { "code": "ELE-030", "qty": "chargers" },
+        { "code": "SOL-220", "qty": "1", "optional": true },
+        { "code": "SOL-230", "qty": "feeder_lf", "optional": true }
+      ]
+    },
+    {
+      "slug": "smart-home-starter",
+      "name": "Smart Home Starter Package",
+      "category": "energy",
+      "tier": "basic",
+      "description": "Thermostat, lock, doorbell, smart switches and a hub, commissioned on the home network.",
+      "variables": [
+        { "key": "switch_count", "name": "Smart switches", "unit": "EA", "default": 8 },
+        { "key": "camera_count", "name": "Cameras",        "unit": "EA", "default": 3 }
+      ],
+      "items": [
+        { "code": "SMT-050", "qty": "1" },
+        { "code": "SMT-010", "qty": "1" },
+        { "code": "SMT-020", "qty": "1" },
+        { "code": "SMT-030", "qty": "1" },
+        { "code": "SMT-040", "qty": "switch_count" },
+        { "code": "SMT-110", "qty": "camera_count" },
+        { "code": "SMT-230", "qty": "2" },
+        { "code": "SMT-210", "qty": "4" }
+      ]
+    },
+    {
+      "slug": "pre-listing-refresh",
+      "name": "Pre-Listing Refresh",
+      "category": "maintenance",
+      "tier": "basic",
+      "description": "Cost-effective turn before listing: paint, floors, fixtures, deep clean and curb appeal.",
+      "variables": [
+        { "key": "floor_area_sf", "name": "Finished floor area", "unit": "SF", "default": 1600 },
+        { "key": "carpet_sf",     "name": "Carpet to replace",   "unit": "SF", "default": 600 },
+        { "key": "window_count",  "name": "Windows",             "unit": "EA", "default": 16 }
+      ],
+      "items": [
+        { "code": "PNT-010", "qty": "floor_area_sf" },
+        { "code": "DRY-210", "qty": "10" },
+        { "code": "PNT-110", "qty": "floor_area_sf * 2.8" },
+        { "code": "PNT-120", "qty": "floor_area_sf" },
+        { "code": "PNT-130", "qty": "floor_area_sf * 0.5" },
+        { "code": "FLR-340", "qty": "carpet_sf" },
+        { "code": "FLR-310", "qty": "carpet_sf / 9" },
+        { "code": "LGT-020", "qty": "8" },
+        { "code": "PLB-120", "qty": "2" },
+        { "code": "CAB-050", "qty": "30" },
+        { "code": "CLN-030", "qty": "floor_area_sf" },
+        { "code": "CLN-130", "qty": "window_count" },
+        { "code": "CLN-110", "qty": "1400" },
+        { "code": "LND-030", "qty": "6" },
+        { "code": "PNT-230", "qty": "1" }
+      ]
+    },
+    {
+      "slug": "annual-maintenance",
+      "name": "Annual Home Maintenance Package",
+      "category": "maintenance",
+      "tier": "basic",
+      "description": "Recurring seasonal service: gutters, HVAC, dryer vent, chimney, caulking and exterior wash.",
+      "variables": [
+        { "key": "gutter_lf",    "name": "Gutter length",   "unit": "LF", "default": 160 },
+        { "key": "roof_squares", "name": "Roof area",       "unit": "SQ", "default": 26 },
+        { "key": "wash_sf",      "name": "Surface to wash", "unit": "SF", "default": 1200 }
+      ],
+      "items": [
+        { "code": "ROF-340", "qty": "gutter_lf" },
+        { "code": "HVA-310", "qty": "2" },
+        { "code": "CLN-140", "qty": "1" },
+        { "code": "CLN-150", "qty": "1", "optional": true },
+        { "code": "CLN-120", "qty": "roof_squares", "optional": true },
+        { "code": "CLN-110", "qty": "wash_sf" },
+        { "code": "SID-240", "qty": "60" },
+        { "code": "GAR-050", "qty": "1" },
+        { "code": "CLN-210", "qty": "1", "optional": true }
+      ]
+    },
+    {
+      "slug": "water-damage-restoration",
+      "name": "Water Damage Restoration",
+      "category": "maintenance",
+      "tier": "standard",
+      "description": "Emergency dry-out, affected material removal, mold treatment, clearance testing and rebuild of finishes.",
+      "variables": [
+        { "key": "affected_sf", "name": "Affected area", "unit": "SF", "default": 400 },
+        { "key": "dry_days",    "name": "Dry-out days",  "unit": "DAY", "default": 4 }
+      ],
+      "items": [
+        { "code": "WPF-210", "qty": "dry_days" },
+        { "code": "SIT-110", "qty": "affected_sf * 0.6" },
+        { "code": "SIT-120", "qty": "affected_sf" },
+        { "code": "INS-060", "qty": "affected_sf * 0.5" },
+        { "code": "WPF-220", "qty": "affected_sf * 0.4" },
+        { "code": "WPF-230", "qty": "1" },
+        { "code": "INS-010", "qty": "affected_sf * 0.6" },
+        { "code": "DRY-010", "qty": "affected_sf * 0.6" },
+        { "code": "DRY-110", "qty": "affected_sf * 0.6" },
+        { "code": "TRM-010", "qty": "affected_sf / 4" },
+        { "code": "PNT-030", "qty": "affected_sf * 0.6" },
+        { "code": "PNT-110", "qty": "affected_sf * 0.6" },
+        { "code": "FLR-110", "qty": "affected_sf" },
+        { "code": "CLN-020", "qty": "affected_sf" },
+        { "code": "SIT-310", "qty": "1" }
+      ]
+    }
+  ]
+}

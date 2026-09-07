@@ -1,0 +1,193 @@
+{
+  "packages": [
+    {
+      "slug": "roof-replacement-asphalt",
+      "name": "Roof Replacement - Asphalt Shingle",
+      "category": "exterior",
+      "tier": "standard",
+      "description": "Full tear-off and replacement with architectural shingles, new underlayment, flashing, vents and gutters.",
+      "variables": [
+        { "key": "roof_squares",  "name": "Roof area",        "unit": "SQ", "default": 28 },
+        { "key": "eave_lf",       "name": "Eave length",      "unit": "LF", "default": 150 },
+        { "key": "valley_lf",     "name": "Valley length",    "unit": "LF", "default": 40 },
+        { "key": "ridge_lf",      "name": "Ridge length",     "unit": "LF", "default": 70 },
+        { "key": "wall_flash_lf", "name": "Wall flashing",    "unit": "LF", "default": 30 },
+        { "key": "penetrations",  "name": "Roof penetrations","unit": "EA", "default": 6 }
+      ],
+      "items": [
+        { "code": "SIT-210", "qty": "roof_squares" },
+        { "code": "SIT-310", "qty": "1" },
+        { "code": "ROF-010", "qty": "roof_squares * 100 * 0.05" },
+        { "code": "ROF-030", "qty": "eave_lf + valley_lf" },
+        { "code": "ROF-020", "qty": "roof_squares" },
+        { "code": "ROF-220", "qty": "valley_lf" },
+        { "code": "ROF-210", "qty": "wall_flash_lf" },
+        { "code": "ROF-230", "qty": "penetrations" },
+        { "code": "ROF-110", "qty": "roof_squares" },
+        { "code": "ROF-240", "qty": "ridge_lf" },
+        { "code": "ROF-310", "qty": "eave_lf" },
+        { "code": "ROF-320", "qty": "60" },
+        { "code": "CLN-010", "qty": "roof_squares * 100" }
+      ]
+    },
+    {
+      "slug": "siding-replacement-fiber-cement",
+      "name": "Siding Replacement - Fiber Cement",
+      "category": "exterior",
+      "tier": "premium",
+      "description": "Remove existing siding, install weather barrier, fiber cement lap siding, trim and finish paint.",
+      "variables": [
+        { "key": "wall_area_sf", "name": "Wall area",     "unit": "SF", "default": 2200 },
+        { "key": "trim_lf",      "name": "Trim length",   "unit": "LF", "default": 420 },
+        { "key": "soffit_sf",    "name": "Soffit area",   "unit": "SF", "default": 260 },
+        { "key": "fascia_lf",    "name": "Fascia length", "unit": "LF", "default": 180 }
+      ],
+      "items": [
+        { "code": "SIT-220", "qty": "wall_area_sf" },
+        { "code": "SIT-310", "qty": "1" },
+        { "code": "SID-010", "qty": "wall_area_sf" },
+        { "code": "SID-020", "qty": "wall_area_sf", "optional": true },
+        { "code": "SID-120", "qty": "wall_area_sf" },
+        { "code": "SID-230", "qty": "trim_lf" },
+        { "code": "SID-210", "qty": "soffit_sf" },
+        { "code": "SID-220", "qty": "fascia_lf" },
+        { "code": "SID-240", "qty": "trim_lf" },
+        { "code": "PNT-210", "qty": "wall_area_sf" },
+        { "code": "PNT-220", "qty": "trim_lf + fascia_lf" },
+        { "code": "CLN-110", "qty": "wall_area_sf" }
+      ]
+    },
+    {
+      "slug": "window-replacement-whole-home",
+      "name": "Window Replacement - Whole Home",
+      "category": "exterior",
+      "tier": "standard",
+      "description": "Replace all windows with insert units, re-trim interiors and reseal exteriors.",
+      "variables": [
+        { "key": "window_count", "name": "Windows",       "unit": "EA", "default": 18 },
+        { "key": "patio_doors",  "name": "Patio doors",   "unit": "EA", "default": 1 }
+      ],
+      "items": [
+        { "code": "SIT-010", "qty": "window_count * 20" },
+        { "code": "WIN-010", "qty": "window_count" },
+        { "code": "DOR-120", "qty": "patio_doors" },
+        { "code": "WIN-050", "qty": "window_count" },
+        { "code": "SID-240", "qty": "window_count * 16" },
+        { "code": "PNT-130", "qty": "window_count * 17" },
+        { "code": "WIN-230", "qty": "window_count" },
+        { "code": "SIT-320", "qty": "1" },
+        { "code": "CLN-130", "qty": "window_count" }
+      ]
+    },
+    {
+      "slug": "exterior-repaint",
+      "name": "Exterior Repaint",
+      "category": "exterior",
+      "tier": "standard",
+      "description": "Wash, scrape, prime and repaint siding, trim and doors.",
+      "variables": [
+        { "key": "wall_area_sf", "name": "Wall area",   "unit": "SF", "default": 2400 },
+        { "key": "trim_lf",      "name": "Trim length", "unit": "LF", "default": 480 },
+        { "key": "door_count",   "name": "Doors",       "unit": "EA", "default": 3 }
+      ],
+      "items": [
+        { "code": "PNT-040", "qty": "wall_area_sf" },
+        { "code": "PNT-050", "qty": "wall_area_sf * 0.35" },
+        { "code": "SID-240", "qty": "trim_lf * 0.5" },
+        { "code": "PNT-030", "qty": "wall_area_sf * 0.35" },
+        { "code": "PNT-210", "qty": "wall_area_sf" },
+        { "code": "PNT-220", "qty": "trim_lf" },
+        { "code": "PNT-230", "qty": "door_count" }
+      ]
+    },
+    {
+      "slug": "deck-build-composite",
+      "name": "Build Composite Deck",
+      "category": "exterior",
+      "tier": "standard",
+      "description": "New attached deck with composite surface, railings, stairs and footings.",
+      "variables": [
+        { "key": "deck_area_sf", "name": "Deck area",     "unit": "SF", "default": 320 },
+        { "key": "ledger_lf",    "name": "Ledger length", "unit": "LF", "default": 20 },
+        { "key": "rail_lf",      "name": "Railing length","unit": "LF", "default": 52 },
+        { "key": "steps",        "name": "Stair steps",   "unit": "EA", "default": 4 },
+        { "key": "footings",     "name": "Footings",      "unit": "EA", "default": 8 }
+      ],
+      "items": [
+        { "code": "EXC-050", "qty": "footings" },
+        { "code": "DCK-010", "qty": "footings" },
+        { "code": "DCK-020", "qty": "ledger_lf" },
+        { "code": "DCK-030", "qty": "deck_area_sf" },
+        { "code": "DCK-120", "qty": "deck_area_sf" },
+        { "code": "DCK-130", "qty": "rail_lf" },
+        { "code": "DCK-140", "qty": "steps" },
+        { "code": "LGT-110", "qty": "2" },
+        { "code": "ELE-220", "qty": "1" },
+        { "code": "SIT-320", "qty": "1" }
+      ]
+    },
+    {
+      "slug": "fence-install-wood",
+      "name": "Wood Privacy Fence Installation",
+      "category": "exterior",
+      "tier": "basic",
+      "description": "New 6 ft cedar privacy fence with gates and set posts.",
+      "variables": [
+        { "key": "fence_lf",   "name": "Fence length", "unit": "LF", "default": 180 },
+        { "key": "gate_count", "name": "Gates",        "unit": "EA", "default": 2 }
+      ],
+      "items": [
+        { "code": "EXC-210", "qty": "fence_lf * 3", "optional": true },
+        { "code": "DCK-210", "qty": "fence_lf" },
+        { "code": "DCK-250", "qty": "gate_count" },
+        { "code": "PNT-310", "qty": "fence_lf * 12", "optional": true },
+        { "code": "SIT-320", "qty": "1" }
+      ]
+    },
+    {
+      "slug": "hardscape-patio",
+      "name": "Paver Patio & Walkway",
+      "category": "exterior",
+      "tier": "standard",
+      "description": "Excavated and compacted paver patio with connecting walkway, edging and lighting.",
+      "variables": [
+        { "key": "patio_sf",   "name": "Patio area",     "unit": "SF", "default": 400 },
+        { "key": "walk_sf",    "name": "Walkway area",   "unit": "SF", "default": 120 },
+        { "key": "edging_lf",  "name": "Edging length",  "unit": "LF", "default": 90 },
+        { "key": "lights",     "name": "Path lights",    "unit": "EA", "default": 8 }
+      ],
+      "items": [
+        { "code": "EXC-010", "qty": "(patio_sf + walk_sf) * 0.5 / 27" },
+        { "code": "EXC-140", "qty": "patio_sf + walk_sf" },
+        { "code": "LND-110", "qty": "patio_sf" },
+        { "code": "LND-120", "qty": "walk_sf" },
+        { "code": "LND-060", "qty": "edging_lf" },
+        { "code": "LND-130", "qty": "60", "optional": true },
+        { "code": "LGT-130", "qty": "lights" },
+        { "code": "LGT-140", "qty": "1" },
+        { "code": "SIT-320", "qty": "2" }
+      ]
+    },
+    {
+      "slug": "driveway-replacement-concrete",
+      "name": "Concrete Driveway Replacement",
+      "category": "exterior",
+      "tier": "standard",
+      "description": "Break out and haul the existing driveway, regrade, and pour a reinforced concrete slab with apron.",
+      "variables": [
+        { "key": "driveway_sf", "name": "Driveway area", "unit": "SF", "default": 700 },
+        { "key": "edge_lf",     "name": "Slab edge",     "unit": "LF", "default": 120 }
+      ],
+      "items": [
+        { "code": "EXC-240", "qty": "driveway_sf" },
+        { "code": "EXC-130", "qty": "driveway_sf * 0.5 / 27" },
+        { "code": "EXC-140", "qty": "driveway_sf" },
+        { "code": "CON-020", "qty": "edge_lf" },
+        { "code": "CON-040", "qty": "driveway_sf" },
+        { "code": "CON-130", "qty": "driveway_sf" },
+        { "code": "CON-340", "qty": "driveway_sf / 12" },
+        { "code": "CON-330", "qty": "driveway_sf" }
+      ]
+    }
+  ]
+}

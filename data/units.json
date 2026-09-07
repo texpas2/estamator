@@ -1,0 +1,19 @@
+{
+  "$comment": "Units of measure used by the work catalog. `system` is the measurement system; `base` groups convertible units.",
+  "units": [
+    { "code": "SF",  "name": "Square Foot",        "system": "imperial", "base": "area",   "to_base": 1 },
+    { "code": "SY",  "name": "Square Yard",        "system": "imperial", "base": "area",   "to_base": 9 },
+    { "code": "SQ",  "name": "Roofing Square",     "system": "imperial", "base": "area",   "to_base": 100 },
+    { "code": "LF",  "name": "Linear Foot",        "system": "imperial", "base": "length", "to_base": 1 },
+    { "code": "CY",  "name": "Cubic Yard",         "system": "imperial", "base": "volume", "to_base": 27 },
+    { "code": "CF",  "name": "Cubic Foot",         "system": "imperial", "base": "volume", "to_base": 1 },
+    { "code": "EA",  "name": "Each",               "system": "count",    "base": "count",  "to_base": 1 },
+    { "code": "PR",  "name": "Pair",               "system": "count",    "base": "count",  "to_base": 2 },
+    { "code": "SET", "name": "Set",                "system": "count",    "base": "count",  "to_base": 1 },
+    { "code": "HR",  "name": "Labor Hour",         "system": "time",     "base": "time",   "to_base": 1 },
+    { "code": "DAY", "name": "Crew Day",           "system": "time",     "base": "time",   "to_base": 8 },
+    { "code": "JOB", "name": "Lump Sum / Per Job", "system": "lump",     "base": "lump",   "to_base": 1 },
+    { "code": "TON", "name": "Ton",                "system": "imperial", "base": "mass",   "to_base": 1 },
+    { "code": "GAL", "name": "Gallon",             "system": "imperial", "base": "volume", "to_base": 0.1337 }
+  ]
+}

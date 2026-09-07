@@ -1,0 +1,13 @@
+{
+  "name": "estamator-catalog",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Work catalog, ZIP-based regional cost factors and standard work packages for the estimator.",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/validate.mjs && node scripts/build.mjs",
+    "price": "node scripts/price.mjs"
+  },
+  "engines": { "node": ">=18" }
+}

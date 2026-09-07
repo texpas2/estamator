@@ -1,0 +1,33 @@
+{
+  "$comment": "Baseline fully-loaded billing rates in USD per labor hour (man-hour), US national average. Work-item labor hours are man-hours, so cost = hours * rate; crew size never multiplies the price. Calibrate per market with the region factors.",
+  "basis": { "currency": "USD", "per": "labor_hour", "market": "US national average", "as_of": "2026-01" },
+  "rates": [
+    { "key": "general_labor",   "name": "General Laborer",          "usd_per_hour": 55 },
+    { "key": "demolition",      "name": "Demolition Crew",          "usd_per_hour": 60 },
+    { "key": "operator",        "name": "Equipment Operator",       "usd_per_hour": 95 },
+    { "key": "concrete",        "name": "Concrete Finisher",        "usd_per_hour": 74 },
+    { "key": "mason",           "name": "Mason",                    "usd_per_hour": 84 },
+    { "key": "carpenter",       "name": "Carpenter",                "usd_per_hour": 78 },
+    { "key": "finish_carpenter","name": "Finish Carpenter",         "usd_per_hour": 86 },
+    { "key": "roofer",          "name": "Roofer",                   "usd_per_hour": 76 },
+    { "key": "siding",          "name": "Siding Installer",         "usd_per_hour": 74 },
+    { "key": "glazier",         "name": "Window / Glazing Tech",    "usd_per_hour": 84 },
+    { "key": "insulation",      "name": "Insulation Installer",     "usd_per_hour": 64 },
+    { "key": "drywall",         "name": "Drywall Mechanic",         "usd_per_hour": 68 },
+    { "key": "painter",         "name": "Painter",                  "usd_per_hour": 62 },
+    { "key": "flooring",        "name": "Flooring Installer",       "usd_per_hour": 70 },
+    { "key": "tile",            "name": "Tile Setter",              "usd_per_hour": 80 },
+    { "key": "cabinet",         "name": "Cabinet Installer",        "usd_per_hour": 85 },
+    { "key": "countertop",      "name": "Countertop Fabricator",    "usd_per_hour": 90 },
+    { "key": "plumber",         "name": "Plumber",                  "usd_per_hour": 108 },
+    { "key": "hvac",            "name": "HVAC Technician",          "usd_per_hour": 100 },
+    { "key": "electrician",     "name": "Electrician",              "usd_per_hour": 102 },
+    { "key": "low_voltage",     "name": "Low Voltage Technician",   "usd_per_hour": 86 },
+    { "key": "appliance",       "name": "Appliance Installer",      "usd_per_hour": 78 },
+    { "key": "landscaper",      "name": "Landscaper",               "usd_per_hour": 58 },
+    { "key": "paver",           "name": "Paving / Hardscape Crew",  "usd_per_hour": 72 },
+    { "key": "cleaner",         "name": "Cleaning Technician",      "usd_per_hour": 48 },
+    { "key": "waterproofing",   "name": "Waterproofing Tech",       "usd_per_hour": 78 },
+    { "key": "solar",           "name": "Solar Installer",          "usd_per_hour": 94 }
+  ]
+}

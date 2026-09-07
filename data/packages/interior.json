@@ -1,0 +1,192 @@
+{
+  "packages": [
+    {
+      "slug": "interior-repaint-whole-home",
+      "name": "Interior Repaint - Whole Home",
+      "category": "interior",
+      "tier": "standard",
+      "description": "Walls, ceilings, trim and doors throughout an occupied home, including patching and protection.",
+      "variables": [
+        { "key": "floor_area_sf", "name": "Finished floor area", "unit": "SF", "default": 2000 },
+        { "key": "ceiling_ht",    "name": "Ceiling height",      "unit": "FT", "default": 9 },
+        { "key": "door_count",    "name": "Doors",               "unit": "EA", "default": 14 }
+      ],
+      "items": [
+        { "code": "SIT-010", "qty": "floor_area_sf" },
+        { "code": "PNT-010", "qty": "floor_area_sf" },
+        { "code": "PNT-020", "qty": "floor_area_sf * ceiling_ht * 0.31" },
+        { "code": "DRY-210", "qty": "12" },
+        { "code": "PNT-030", "qty": "floor_area_sf * 0.6" },
+        { "code": "PNT-110", "qty": "floor_area_sf * ceiling_ht * 0.31" },
+        { "code": "PNT-120", "qty": "floor_area_sf" },
+        { "code": "PNT-130", "qty": "floor_area_sf * 0.55" },
+        { "code": "PNT-140", "qty": "door_count" },
+        { "code": "CLN-030", "qty": "floor_area_sf" }
+      ]
+    },
+    {
+      "slug": "room-refresh",
+      "name": "Single Room Refresh (Paint & Flooring)",
+      "category": "interior",
+      "tier": "basic",
+      "description": "One room turned over: flooring replaced, walls and trim repainted, lighting and devices updated.",
+      "variables": [
+        { "key": "floor_area_sf", "name": "Room floor area", "unit": "SF", "default": 180 },
+        { "key": "perimeter_lf",  "name": "Room perimeter",   "unit": "LF", "default": 54 },
+        { "key": "ceiling_ht",    "name": "Ceiling height",   "unit": "FT", "default": 9 }
+      ],
+      "items": [
+        { "code": "SIT-010", "qty": "floor_area_sf" },
+        { "code": "FLR-340", "qty": "floor_area_sf" },
+        { "code": "FLR-020", "qty": "floor_area_sf" },
+        { "code": "FLR-110", "qty": "floor_area_sf" },
+        { "code": "FLR-030", "qty": "8" },
+        { "code": "TRM-010", "qty": "perimeter_lf" },
+        { "code": "PNT-020", "qty": "perimeter_lf * ceiling_ht" },
+        { "code": "PNT-110", "qty": "perimeter_lf * ceiling_ht" },
+        { "code": "PNT-120", "qty": "floor_area_sf" },
+        { "code": "PNT-130", "qty": "perimeter_lf" },
+        { "code": "ELE-210", "qty": "6" },
+        { "code": "ELE-230", "qty": "2" },
+        { "code": "LGT-020", "qty": "1" },
+        { "code": "CLN-020", "qty": "floor_area_sf" }
+      ]
+    },
+    {
+      "slug": "basement-finish",
+      "name": "Finish Basement",
+      "category": "interior",
+      "tier": "standard",
+      "description": "Convert unfinished basement to living space: framing, systems, insulation, drywall, flooring and an egress window.",
+      "variables": [
+        { "key": "floor_area_sf",   "name": "Basement floor area", "unit": "SF", "default": 900 },
+        { "key": "perimeter_lf",    "name": "Exterior perimeter",  "unit": "LF", "default": 130 },
+        { "key": "partition_lf",    "name": "Interior partitions", "unit": "LF", "default": 90 },
+        { "key": "ceiling_ht",      "name": "Ceiling height",      "unit": "FT", "default": 8 },
+        { "key": "door_count",      "name": "Interior doors",      "unit": "EA", "default": 4 }
+      ],
+      "items": [
+        { "code": "WPF-030", "qty": "perimeter_lf * ceiling_ht", "optional": true },
+        { "code": "FRM-020", "qty": "perimeter_lf" },
+        { "code": "FRM-010", "qty": "partition_lf" },
+        { "code": "FRM-030", "qty": "door_count + 2" },
+        { "code": "FRM-040", "qty": "60" },
+        { "code": "WIN-040", "qty": "1" },
+        { "code": "PLB-030", "qty": "3" },
+        { "code": "PLB-240", "qty": "1", "optional": true },
+        { "code": "ELE-020", "qty": "1" },
+        { "code": "ELE-130", "qty": "floor_area_sf" },
+        { "code": "HVA-120", "qty": "120" },
+        { "code": "HVA-130", "qty": "8" },
+        { "code": "INS-010", "qty": "(perimeter_lf + partition_lf) * ceiling_ht" },
+        { "code": "INS-120", "qty": "perimeter_lf * ceiling_ht" },
+        { "code": "DRY-010", "qty": "(perimeter_lf + partition_lf * 2) * ceiling_ht" },
+        { "code": "DRY-020", "qty": "floor_area_sf" },
+        { "code": "DRY-110", "qty": "(perimeter_lf + partition_lf * 2) * ceiling_ht + floor_area_sf" },
+        { "code": "DRY-130", "qty": "partition_lf" },
+        { "code": "DOR-010", "qty": "door_count" },
+        { "code": "DOR-210", "qty": "door_count" },
+        { "code": "TRM-010", "qty": "perimeter_lf + partition_lf * 2" },
+        { "code": "TRM-020", "qty": "door_count * 17" },
+        { "code": "FLR-010", "qty": "floor_area_sf" },
+        { "code": "FLR-110", "qty": "floor_area_sf" },
+        { "code": "LGT-010", "qty": "16" },
+        { "code": "ELE-210", "qty": "22" },
+        { "code": "ELE-230", "qty": "8" },
+        { "code": "ELE-250", "qty": "3" },
+        { "code": "PNT-030", "qty": "(perimeter_lf + partition_lf * 2) * ceiling_ht + floor_area_sf" },
+        { "code": "PNT-110", "qty": "(perimeter_lf + partition_lf * 2) * ceiling_ht" },
+        { "code": "PNT-120", "qty": "floor_area_sf" },
+        { "code": "PNT-130", "qty": "perimeter_lf + partition_lf * 2" },
+        { "code": "PNT-140", "qty": "door_count" },
+        { "code": "CLN-010", "qty": "floor_area_sf" },
+        { "code": "CLN-020", "qty": "floor_area_sf" },
+        { "code": "SIT-310", "qty": "1" }
+      ]
+    },
+    {
+      "slug": "flooring-replacement-lvp",
+      "name": "Flooring Replacement - LVP",
+      "category": "interior",
+      "tier": "basic",
+      "description": "Tear out existing flooring and install luxury vinyl plank with new base trim.",
+      "variables": [
+        { "key": "floor_area_sf", "name": "Floor area",   "unit": "SF", "default": 1200 },
+        { "key": "perimeter_lf",  "name": "Base trim",    "unit": "LF", "default": 320 }
+      ],
+      "items": [
+        { "code": "SIT-010", "qty": "floor_area_sf * 0.2" },
+        { "code": "SIT-120", "qty": "floor_area_sf" },
+        { "code": "SIT-320", "qty": "1" },
+        { "code": "FLR-010", "qty": "floor_area_sf * 0.3" },
+        { "code": "FLR-020", "qty": "floor_area_sf" },
+        { "code": "FLR-110", "qty": "floor_area_sf" },
+        { "code": "FLR-030", "qty": "24" },
+        { "code": "TRM-010", "qty": "perimeter_lf" },
+        { "code": "PNT-130", "qty": "perimeter_lf" },
+        { "code": "CLN-020", "qty": "floor_area_sf" }
+      ]
+    },
+    {
+      "slug": "hardwood-refinish",
+      "name": "Hardwood Floor Refinishing",
+      "category": "interior",
+      "tier": "standard",
+      "description": "Sand and refinish existing hardwood, including board repairs and shoe molding.",
+      "variables": [
+        { "key": "floor_area_sf", "name": "Floor area",  "unit": "SF", "default": 900 },
+        { "key": "perimeter_lf",  "name": "Shoe molding","unit": "LF", "default": 260 }
+      ],
+      "items": [
+        { "code": "SIT-020", "qty": "150" },
+        { "code": "FLR-240", "qty": "30" },
+        { "code": "FLR-230", "qty": "floor_area_sf" },
+        { "code": "TRM-010", "qty": "perimeter_lf" },
+        { "code": "PNT-130", "qty": "perimeter_lf" },
+        { "code": "CLN-020", "qty": "floor_area_sf" }
+      ]
+    },
+    {
+      "slug": "attic-conversion",
+      "name": "Attic Conversion to Living Space",
+      "category": "interior",
+      "tier": "premium",
+      "description": "Convert a floored attic to conditioned living space with structural reinforcement, dormered light, systems and finishes.",
+      "variables": [
+        { "key": "floor_area_sf", "name": "Attic floor area", "unit": "SF", "default": 600 },
+        { "key": "perimeter_lf",  "name": "Knee wall + gable", "unit": "LF", "default": 110 },
+        { "key": "ceiling_ht",    "name": "Average wall height","unit": "FT", "default": 7 }
+      ],
+      "items": [
+        { "code": "FRM-320", "qty": "floor_area_sf * 0.6" },
+        { "code": "FRM-230", "qty": "floor_area_sf" },
+        { "code": "FRM-010", "qty": "perimeter_lf" },
+        { "code": "TRM-140", "qty": "13" },
+        { "code": "WIN-110", "qty": "2" },
+        { "code": "WIN-130", "qty": "2" },
+        { "code": "PLB-030", "qty": "3" },
+        { "code": "ELE-020", "qty": "1" },
+        { "code": "ELE-130", "qty": "floor_area_sf" },
+        { "code": "HVA-040", "qty": "1" },
+        { "code": "INS-040", "qty": "floor_area_sf * 1.4" },
+        { "code": "INS-110", "qty": "floor_area_sf" },
+        { "code": "DRY-010", "qty": "perimeter_lf * ceiling_ht" },
+        { "code": "DRY-020", "qty": "floor_area_sf * 1.2" },
+        { "code": "DRY-110", "qty": "perimeter_lf * ceiling_ht + floor_area_sf * 1.2" },
+        { "code": "FLR-010", "qty": "floor_area_sf" },
+        { "code": "FLR-220", "qty": "floor_area_sf" },
+        { "code": "TRM-010", "qty": "perimeter_lf" },
+        { "code": "DOR-010", "qty": "2" },
+        { "code": "LGT-010", "qty": "10" },
+        { "code": "ELE-210", "qty": "14" },
+        { "code": "ELE-250", "qty": "2" },
+        { "code": "PNT-030", "qty": "perimeter_lf * ceiling_ht + floor_area_sf * 1.2" },
+        { "code": "PNT-110", "qty": "perimeter_lf * ceiling_ht" },
+        { "code": "PNT-120", "qty": "floor_area_sf * 1.2" },
+        { "code": "PNT-130", "qty": "perimeter_lf" },
+        { "code": "CLN-020", "qty": "floor_area_sf" },
+        { "code": "SIT-310", "qty": "1" }
+      ]
+    }
+  ]
+}

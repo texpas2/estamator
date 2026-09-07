@@ -1,0 +1,49 @@
+{
+  "$comment": "The catalog holds DIRECT cost (labor + material). A quoted price adds overhead, profit, contingency, material sales tax and permit fees on top. These profiles are the defaults an estimate starts from; per-job overrides belong in the estimate, not here.",
+  "profiles": [
+    {
+      "slug": "handyman",
+      "name": "Handyman / Small Repair",
+      "description": "Single-trade work, low fixed overhead, priced close to direct cost.",
+      "overhead_pct": 12,
+      "profit_pct": 15,
+      "contingency_pct": 3,
+      "material_sales_tax_pct": 7,
+      "permit_fee_pct": 0,
+      "is_default": false
+    },
+    {
+      "slug": "general-contractor",
+      "name": "General Contractor",
+      "description": "Multi-trade remodel with supervision, insurance and warranty reserve. The default for packaged scopes.",
+      "overhead_pct": 18,
+      "profit_pct": 20,
+      "contingency_pct": 7,
+      "material_sales_tax_pct": 7,
+      "permit_fee_pct": 1.5,
+      "is_default": true
+    },
+    {
+      "slug": "design-build",
+      "name": "Design-Build / Premium",
+      "description": "Design, permitting, project management and selections carried in house.",
+      "overhead_pct": 25,
+      "profit_pct": 22,
+      "contingency_pct": 10,
+      "material_sales_tax_pct": 7,
+      "permit_fee_pct": 2.5,
+      "is_default": false
+    },
+    {
+      "slug": "insurance-restoration",
+      "name": "Insurance Restoration",
+      "description": "Carrier work priced at direct cost with a standard 10 and 10 overhead-and-profit split.",
+      "overhead_pct": 10,
+      "profit_pct": 10,
+      "contingency_pct": 0,
+      "material_sales_tax_pct": 7,
+      "permit_fee_pct": 1,
+      "is_default": false
+    }
+  ]
+}

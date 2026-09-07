@@ -1,0 +1,154 @@
+{
+  "$comment": "Top-level work groups (trades) and their sections. Every work item belongs to exactly one section of one trade.",
+  "trades": [
+    { "slug": "site-prep", "code": "SIT", "name": "Site Preparation & Demolition", "sort": 10, "sections": [
+      { "slug": "protection", "name": "Protection & Containment" },
+      { "slug": "interior-demolition", "name": "Interior Demolition" },
+      { "slug": "exterior-demolition", "name": "Exterior Demolition" },
+      { "slug": "debris-removal", "name": "Debris Handling & Disposal" }
+    ]},
+    { "slug": "excavation", "code": "EXC", "name": "Excavation & Grading", "sort": 20, "sections": [
+      { "slug": "earthwork", "name": "Earthwork & Trenching" },
+      { "slug": "grading", "name": "Grading & Compaction" },
+      { "slug": "land-clearing", "name": "Land Clearing" }
+    ]},
+    { "slug": "concrete", "code": "CON", "name": "Concrete & Foundation", "sort": 30, "sections": [
+      { "slug": "formwork-rebar", "name": "Formwork & Reinforcement" },
+      { "slug": "flatwork", "name": "Slabs & Flatwork" },
+      { "slug": "foundations", "name": "Footings & Foundation Walls" },
+      { "slug": "concrete-repair", "name": "Concrete Repair & Finishing" }
+    ]},
+    { "slug": "masonry", "code": "MAS", "name": "Masonry", "sort": 40, "sections": [
+      { "slug": "block-brick", "name": "Block & Brick" },
+      { "slug": "stone", "name": "Stone & Veneer" },
+      { "slug": "masonry-repair", "name": "Tuckpointing & Repair" }
+    ]},
+    { "slug": "framing", "code": "FRM", "name": "Framing & Structural Carpentry", "sort": 50, "sections": [
+      { "slug": "wall-framing", "name": "Wall Framing" },
+      { "slug": "floor-roof-framing", "name": "Floor & Roof Framing" },
+      { "slug": "sheathing", "name": "Sheathing & Subfloor" },
+      { "slug": "structural-repair", "name": "Structural Modification & Repair" }
+    ]},
+    { "slug": "roofing", "code": "ROF", "name": "Roofing", "sort": 60, "sections": [
+      { "slug": "tear-off", "name": "Tear-Off & Deck Prep" },
+      { "slug": "roof-covering", "name": "Roof Coverings" },
+      { "slug": "flashing-accessories", "name": "Flashing, Vents & Accessories" },
+      { "slug": "gutters", "name": "Gutters & Downspouts" }
+    ]},
+    { "slug": "siding", "code": "SID", "name": "Siding & Exterior Trim", "sort": 70, "sections": [
+      { "slug": "weather-barrier", "name": "Weather Barrier & Furring" },
+      { "slug": "siding-install", "name": "Siding Installation" },
+      { "slug": "exterior-trim", "name": "Exterior Trim & Soffit" }
+    ]},
+    { "slug": "windows", "code": "WIN", "name": "Windows & Skylights", "sort": 80, "sections": [
+      { "slug": "window-install", "name": "Window Installation" },
+      { "slug": "skylights", "name": "Skylights & Roof Windows" },
+      { "slug": "window-service", "name": "Window Repair & Glazing" }
+    ]},
+    { "slug": "doors", "code": "DOR", "name": "Doors & Hardware", "sort": 90, "sections": [
+      { "slug": "interior-doors", "name": "Interior Doors" },
+      { "slug": "exterior-doors", "name": "Exterior Doors" },
+      { "slug": "door-hardware", "name": "Door Hardware" }
+    ]},
+    { "slug": "insulation", "code": "INS", "name": "Insulation & Air Sealing", "sort": 100, "sections": [
+      { "slug": "cavity-insulation", "name": "Cavity & Attic Insulation" },
+      { "slug": "air-sealing", "name": "Air Sealing & Vapor Control" },
+      { "slug": "soundproofing", "name": "Acoustic Insulation" }
+    ]},
+    { "slug": "drywall", "code": "DRY", "name": "Drywall & Plaster", "sort": 110, "sections": [
+      { "slug": "drywall-install", "name": "Drywall Hanging" },
+      { "slug": "drywall-finish", "name": "Taping, Finishing & Texture" },
+      { "slug": "drywall-repair", "name": "Drywall & Plaster Repair" }
+    ]},
+    { "slug": "interior-trim", "code": "TRM", "name": "Interior Trim & Millwork", "sort": 120, "sections": [
+      { "slug": "casing-base", "name": "Base, Casing & Crown" },
+      { "slug": "stairs-rails", "name": "Stairs & Railings" },
+      { "slug": "built-ins", "name": "Shelving & Built-Ins" }
+    ]},
+    { "slug": "painting", "code": "PNT", "name": "Painting & Coatings", "sort": 130, "sections": [
+      { "slug": "surface-prep", "name": "Surface Preparation" },
+      { "slug": "interior-painting", "name": "Interior Painting" },
+      { "slug": "exterior-painting", "name": "Exterior Painting" },
+      { "slug": "specialty-coatings", "name": "Stains & Specialty Coatings" }
+    ]},
+    { "slug": "flooring", "code": "FLR", "name": "Flooring", "sort": 140, "sections": [
+      { "slug": "floor-prep", "name": "Floor Prep & Underlayment" },
+      { "slug": "resilient", "name": "Resilient & Laminate" },
+      { "slug": "wood-flooring", "name": "Wood Flooring" },
+      { "slug": "carpet", "name": "Carpet" }
+    ]},
+    { "slug": "tile-stone", "code": "TIL", "name": "Tile & Stone", "sort": 150, "sections": [
+      { "slug": "tile-substrate", "name": "Substrate & Waterproofing" },
+      { "slug": "floor-tile", "name": "Floor Tile" },
+      { "slug": "wall-tile", "name": "Wall & Shower Tile" },
+      { "slug": "tile-trim", "name": "Grout, Trim & Sealing" }
+    ]},
+    { "slug": "cabinets-countertops", "code": "CAB", "name": "Cabinets & Countertops", "sort": 160, "sections": [
+      { "slug": "cabinet-install", "name": "Cabinet Installation" },
+      { "slug": "countertops", "name": "Countertops" },
+      { "slug": "cabinet-refinish", "name": "Refacing & Refinishing" }
+    ]},
+    { "slug": "plumbing", "code": "PLB", "name": "Plumbing", "sort": 170, "sections": [
+      { "slug": "rough-plumbing", "name": "Rough-In Piping & Drainage" },
+      { "slug": "fixtures", "name": "Fixture Installation" },
+      { "slug": "water-heating", "name": "Water Heaters & Treatment" },
+      { "slug": "plumbing-repair", "name": "Plumbing Repair & Service" }
+    ]},
+    { "slug": "hvac", "code": "HVA", "name": "HVAC", "sort": 180, "sections": [
+      { "slug": "equipment", "name": "Heating & Cooling Equipment" },
+      { "slug": "distribution", "name": "Ductwork & Distribution" },
+      { "slug": "ventilation", "name": "Ventilation & Exhaust" },
+      { "slug": "hvac-service", "name": "HVAC Service & Repair" }
+    ]},
+    { "slug": "electrical", "code": "ELE", "name": "Electrical", "sort": 190, "sections": [
+      { "slug": "service-panels", "name": "Service & Panels" },
+      { "slug": "branch-circuits", "name": "Branch Circuits & Wiring" },
+      { "slug": "devices", "name": "Devices & Outlets" },
+      { "slug": "electrical-service", "name": "Electrical Repair & Testing" }
+    ]},
+    { "slug": "lighting", "code": "LGT", "name": "Lighting", "sort": 200, "sections": [
+      { "slug": "interior-lighting", "name": "Interior Lighting" },
+      { "slug": "exterior-lighting", "name": "Exterior & Landscape Lighting" },
+      { "slug": "lighting-controls", "name": "Lighting Controls" }
+    ]},
+    { "slug": "smart-home", "code": "SMT", "name": "Smart Home & Low Voltage", "sort": 210, "sections": [
+      { "slug": "smart-devices", "name": "Smart Devices" },
+      { "slug": "security", "name": "Security & Cameras" },
+      { "slug": "network-av", "name": "Network & Audio/Video" }
+    ]},
+    { "slug": "appliances", "code": "APP", "name": "Appliances", "sort": 220, "sections": [
+      { "slug": "kitchen-appliances", "name": "Kitchen Appliances" },
+      { "slug": "laundry-appliances", "name": "Laundry Appliances" }
+    ]},
+    { "slug": "decks-fencing", "code": "DCK", "name": "Decks, Porches & Fencing", "sort": 230, "sections": [
+      { "slug": "deck-structure", "name": "Deck Structure" },
+      { "slug": "deck-surface", "name": "Decking, Rails & Stairs" },
+      { "slug": "fencing", "name": "Fences & Gates" }
+    ]},
+    { "slug": "landscaping", "code": "LND", "name": "Landscaping & Hardscaping", "sort": 240, "sections": [
+      { "slug": "softscape", "name": "Lawn & Planting" },
+      { "slug": "hardscape", "name": "Patios, Walks & Walls" },
+      { "slug": "irrigation-drainage", "name": "Irrigation & Drainage" }
+    ]},
+    { "slug": "garage-driveway", "code": "GAR", "name": "Garage & Driveway", "sort": 250, "sections": [
+      { "slug": "garage-doors", "name": "Garage Doors & Openers" },
+      { "slug": "driveways", "name": "Driveways & Paving" },
+      { "slug": "garage-interior", "name": "Garage Interior & Storage" }
+    ]},
+    { "slug": "waterproofing", "code": "WPF", "name": "Waterproofing & Moisture Control", "sort": 260, "sections": [
+      { "slug": "foundation-waterproofing", "name": "Foundation & Basement" },
+      { "slug": "crawlspace", "name": "Crawlspace & Vapor Barrier" },
+      { "slug": "remediation", "name": "Mold & Water Damage Remediation" }
+    ]},
+    { "slug": "solar-energy", "code": "SOL", "name": "Solar & Energy Systems", "sort": 270, "sections": [
+      { "slug": "solar-pv", "name": "Solar PV" },
+      { "slug": "storage-backup", "name": "Storage & Backup Power" },
+      { "slug": "ev-charging", "name": "EV Charging" }
+    ]},
+    { "slug": "cleaning-maintenance", "code": "CLN", "name": "Cleaning, Maintenance & Repair", "sort": 280, "sections": [
+      { "slug": "construction-cleaning", "name": "Construction & Deep Cleaning" },
+      { "slug": "exterior-maintenance", "name": "Exterior Maintenance" },
+      { "slug": "inspection", "name": "Inspection & Testing" }
+    ]}
+  ]
+}
