@@ -1,112 +1,172 @@
-# 12 — Honest Risk Assessment: Where This Case Is Weak, and How to Fix It
+# 12 — Honest Risk Assessment (revised against the actual CV, Sept 2026)
 
-> Read this **before** you spend money on drafting or filing. Its purpose is to
-> tell you what a USCIS officer will think, not what you want to hear. Every item
-> below is fixable, but most of them are fixable only **before** you file.
+> Read this **before** spending money on drafting or filing. Its purpose is to
+> tell you what a USCIS officer will think, not what you want to hear.
 
 ---
 
-## The structural problem with a project-engineering NIW
+## Your actual profile
 
-EB-2 NIW was designed for people whose contribution is not well captured by
-"a job at a company." Research, entrepreneurship, specialized expertise with
-diffuse benefit.
+| | |
+|---|---|
+| Discipline | Process / process-safety engineering — gas processing, gas compression, LNG, and now PLA and bio-based chemicals |
+| Qualifying experience | 10 years, 2009-03 → 2019-03 (YUZHNIIGIPROGAZ → Sakhalin Energy / Shell) |
+| Career break | **2019 → 2025, seven years outside the profession**, running BestTileSolution LLC (tile and flooring) in Katy, TX |
+| Current | Project Engineer, Sulzer, since 2026-01 — **8 months** |
+| Degree | BSc Chemical Engineering, Donetsk National Technical University, 2008 |
+| EB-2 route | Route 2 (bachelor's + 5 years progressive) — **satisfied** |
+| U.S. work to date | ExxonMobil (via Sulzer), BioFlux Tulsa (via Sulzer) — both since Jan 2026 |
+| Prior design work | All foreign-sited: Sakhalin, Orenburg, Astrakhan, Amur, Shtokman, Purovsky, Samburgskoye |
 
-**Project engineering and cost estimating in the process industries is a defined
-U.S. occupation with an established PERM route, a published BLS SOC code, an
-active U.S. labor market, and thousands of qualified U.S. practitioners on the
-Gulf Coast.** An officer knows this. It does not make your case unwinnable —
-NIWs are approved for practitioners every year — but it means:
+---
 
-- **Prong 1 will not be carried by the industry's importance.** "Petrochemicals
-  matter to America" is true and irrelevant. Officers see it constantly. Prong 1
-  turns on whether *your specific endeavor* has effects beyond your employer and
-  your job sites.
-- **Prong 3 is your hardest prong**, not prong 2. The question "why should we
-  skip the labor market test for a project engineer in Houston?" must have a real
-  answer, in facts, not in rhetoric.
+## The two facts that dominate this case
 
-Approach the case accordingly.
+### 1. The seven-year gap (2019–2025)
+
+This is the largest single problem, and it is not a small one. Prong 2 asks
+whether you are **well positioned to advance** the endeavor. An officer reading
+your record sees a process engineer who left the field in 2019, spent seven years
+installing tile, and returned eight months ago. The natural adjudicator question
+is: *is this person currently a practitioner in the field at all?*
+
+The gap does **not** affect EB-2 eligibility — Route 2 needs five years of
+progressive experience to exist, not to be recent, and you have ten. It affects
+**prong 2 and prong 3** severely.
+
+**What actually helps:**
+- **Time at Sulzer.** Every additional month of current, documented, U.S.-sited
+  process engineering closes this. Eight months is thin; two to three years is a
+  different case entirely.
+- **Explaining the gap directly and without embarrassment**, in the personal
+  statement. Do not hide it — the dates are visible and concealment reads badly.
+  Running your own U.S. company for seven years is a legitimate and credible
+  thing to have done. Own it and connect it: U.S. business operations,
+  estimating, contracting, site safety, managing crews under OSHA.
+- **Recent technical output.** Anything dated 2026 that is technical and public —
+  a paper, a presentation, an FE/PE exam pass, a certification — is worth
+  disproportionately more than anything dated 2018.
+
+**What does not help:** arguing that the gap is irrelevant, or padding the CV to
+obscure it.
+
+### 2. Almost none of your engineering record is U.S. work
+
+Sakhalin, Orenburg, Astrakhan, Amur, Shtokman, Purovsky, Samburgskoye — all of it
+is Russian and Sakhalin-region work for Gazprom, Novatek, Technip, Shell. It is
+substantial, real engineering, and it establishes competence. But **prong 1 asks
+about national importance to the United States**, and foreign projects do not
+speak to it.
+
+Your U.S.-relevant engineering record is currently: **eight months at Sulzer.**
+
+There is also a practical dimension worth naming plainly: a record built almost
+entirely on Russian oil-and-gas projects for Gazprom and Novatek is not neutral
+context in a 2026 U.S. adjudication. This is not a reason to hide it — it is your
+genuine experience and it must be disclosed accurately — but it is a reason to
+lead the petition with your **U.S. and bio-based work** and to let the earlier
+record sit where it belongs, as the foundation of your technical competence.
+
+> Earlier in this conversation I described your PLA work as part of the proposed
+> endeavor. It is in **Kazakhstan** — keep it out of the endeavor and cite it
+> only as evidence of capability.
+
+---
+
+## Where the real opportunity is: BioFlux
+
+**BioFlux, Tulsa, Oklahoma is the most valuable thing in your current file**, and
+possibly the whole basis for a viable petition — *if* it is what the name
+suggests (bio-based chemicals, renewable fuels, or biomass conversion).
+
+Why it is stronger than your gas-processing background for NIW purposes:
+
+- It is **U.S.-sited**, in a state that is not a coastal hub — regional economic
+  development arguments are available.
+- Domestic **bio-manufacturing and renewable feedstock capacity** is the subject
+  of explicit federal policy and funding, which gives you *independent,
+  citable* national-importance evidence — exactly what prong 1 requires and what
+  "oil and gas is important" never supplies.
+- Your PLA work makes you credible in **biopolymers specifically** — a genuinely
+  narrower specialty than "process engineer," which is what prong 1 needs.
+- The specialist population is small. That supports prong 3 in a way that
+  "process engineer on the Gulf Coast" cannot.
+
+**A viable endeavor for you probably looks like this** *(shape only — do not file
+this sentence until it is true and documented)*:
+
+> Process design and process-safety engineering for **U.S. bio-based chemical and
+> biopolymer production facilities** — bringing gas-processing and LNG-grade
+> process safety discipline (HAZOP/HAZID/SIL, relief and flare design) into a
+> young domestic industry where that discipline is not yet mature.
+
+That is specific, it is defensible, it uses your genuine strengths, and it has a
+real national-importance argument behind it. "Process engineer for Gulf Coast oil
+and gas" does not.
+
+**Tell me what BioFlux actually makes and I can build the endeavor properly.**
 
 ---
 
 ## Risk register
 
-| # | Risk | Severity | How an officer will phrase it | Fix (do this before filing) |
-|---|---|---|---|---|
-| 1 | Endeavor described as an occupation | **Critical** | "The petitioner describes a job, not a proposed endeavor of national importance." | Rewrite `04` to the four-part sentence. This is non-negotiable. |
-| 2 | Prong 1 argued from industry importance | **Critical** | "The importance of the industry does not establish the national importance of the petitioner's endeavor." | Argue the *documented capital-project performance problem* (file `09` § C) and your specific mechanism against it. |
-| 3 | No evidence of adoption beyond your own projects | **High** | "The record does not show the petitioner's work has impact beyond his employer." | This is the highest-return item in the whole package. See "Closing the adoption gap" below. |
-| 4 | All letters from supervisors/colleagues | **High** | "The letters are from individuals with whom the petitioner has worked and are of limited probative value." | Get ≥3 genuinely independent recommenders. Start now — 4–10 weeks. |
-| 5 | Prong 3 asserts impracticality that isn't true | **High** | "The petitioner is employed full time and has not shown a job offer is impractical to obtain." | Only plead impracticality if it is true. If you are in a stable sponsored role, lead prong 3 on shortage + transferable benefit instead. |
-| 6 | No quantified outcomes attributable to you personally | **High** | "The petitioner has not shown his individual contributions, as distinct from those of the project team." | For each project, one number that is *yours*. See "Attribution" below. |
-| 7 | Credential evaluation returns bachelor's, no 5 progressive years documented | **High** | "The petitioner has not established eligibility for the underlying classification." | Order the evaluation now; build the progression table in `11` § B; get the letters written to it. |
-| 8 | Confidential employer documents filed without permission | **High (to you, not to the case)** | — | Get written permission or redact. This is a real employment and legal exposure in EPC work. |
-| 9 | Priority date retrogression | Medium | — | If chargeable to India/China, expect a long wait after approval. Plan status accordingly. Not a merits issue. |
-| 10 | No publications, patents, or public record | Medium | "The record contains no evidence of recognition in the field." | Publish. See below — this is achievable in months. |
-| 11 | Plan is aspirational, no counterparties | Medium | "The petitioner has not shown progress toward the proposed endeavor." | Get one LOI or MSA. One signed page changes this. |
-| 12 | Letters obviously written by one hand | Medium | "The letters contain identical language." | Let recommenders rewrite. Vary structure and length. Do not send six copies of the same template. |
+| # | Risk | Severity | Fix |
+|---|---|---|---|
+| 1 | 7-year gap; only 8 months back in the field | **Critical** | Time at Sulzer; address it head-on in the personal statement; add dated 2026 technical output |
+| 2 | Engineering record is almost entirely foreign-sited | **Critical** | Lead with BioFlux and ExxonMobil; frame Russian work as foundational competence, disclosed accurately |
+| 3 | Endeavor not yet defined; "process engineer" is an occupation | **Critical** | Define it around biopolymers / bio-based process safety, per above |
+| 4 | No U.S. licence — no FE, no PE, no certifications since 2017 | **High** | Sit the **FE exam**, then PE. Realistic and high-value |
+| 5 | No publications, patents, or public technical record | **High** | One AIChE paper or conference presentation on process safety in biopolymer plants would change prong 2 materially |
+| 6 | No evidence any of your work was adopted beyond its own project | **High** | Audit your Sakhalin/YUZHNIIGIPROGAZ record for standards or procedures you authored that outlived the project; get proof |
+| 7 | Recommenders: your former colleagues are largely in Russia/Ukraine and hard to reach | **High** | Build U.S. recommenders now — Sulzer colleagues, AIChE South Texas section, client contacts |
+| 8 | Prong 3 — process engineering has a working PERM path, and Sulzer could sponsor you | **High** | Be honest. If Sulzer would sponsor, PERM is genuinely the better route — see below |
+| 9 | Describing Sulzer/ExxonMobil/BioFlux project detail without permission | **High (to you)** | Get written permission before filing anything project-specific |
+| 10 | Credential evaluation may return "bachelor's" only | Medium | Expected — Route 2 already handles it. Order it anyway |
+| 11 | Priority date | Low | Ukraine chargeability has been current or near-current; confirm the Visa Bulletin |
 
 ---
 
-## Closing the adoption gap (risk #3 — the highest-value work you can do)
+## My honest recommendation
 
-Prong 2 is not "is he good at his job." It is "is his work being taken up." Audit
-your history for every instance of this, however small, and get proof:
+**Do not file now.** As of today the petition would rest on eight months of U.S.
+practice after a seven-year absence, a foreign project record, no U.S. licence,
+no publications, and no defined endeavor. That combination draws an RFE at best.
 
-- A procedure, estimating basis, checklist, WBS structure, or norms table you
-  wrote that was **used on a later project or made a company standard**. Find the
-  document. Get a dated memo or an email confirming the adoption.
-- A model or spreadsheet tool **other estimators use**. Get a list of users.
-- **Benchmark data you contributed** to an industry body (AACE, CII, IPA).
-- **Training you delivered** to U.S. engineers — get the deck, the attendance
-  sheet, and a letter from whoever asked you to teach it.
-- A **client that took your method to another contractor**.
-- A technical position you took that **changed an execution strategy**.
+**Two paths, and I'd weigh them in this order:**
 
-If you find nothing here, prong 2 is thin, and you should build it before filing
-rather than argue around it.
+**1. Ask Sulzer about PERM sponsorship first.** You are a Project Engineer at a
+large multinational with a U.S. entity. If Sulzer will sponsor an EB-2 PERM, that
+is a far better fit for your actual situation than NIW: no *Dhanasar* argument, no
+need to prove national importance, no exposure on the career gap. It is slower and
+it ties you to the employer, but the probability of approval is far higher. **Ask
+HR.** This is the single most useful thing you can do this month.
 
-## Attribution (risk #6)
+**2. Build the NIW record over 18–24 months** — in parallel, and as a fallback:
 
-Capital projects are team products. Officers know this and discount team results
-claimed as personal. For each project, produce **one sentence in this shape**:
-
-> "The {{deliverable}} for {{scope}} was mine alone; it {{result, with a number}};
-> this is confirmed by {{document}} and by {{recommender}} at Exhibit {{N}}."
-
-If you cannot write that sentence for a project, do not feature that project.
-
-## Things you can add in 3–9 months that materially change this case
-
-Ranked by value per unit of effort:
-
-| Action | Effort | Effect |
+| Action | Timeline | Why it matters |
 |---|---|---|
-| **AACE International CEP or CCP certification** | 3–6 months, exam-based | Directly satisfies exceptional-ability criterion C; establishes standing in the specialty; makes association letters natural to obtain. **Highest value single action for your profile.** |
-| **Publish once** — AACE Transactions, an AACE section presentation, or a trade journal article on your method | 2–4 months | Creates an independent, citable public record; creates the mechanism by which independent recommenders can legitimately know your work |
-| **Present at the AACE Houston section or a CII/industry forum** | 2–3 months | Same, plus recommender pipeline |
-| **Get one LOI or MSA** from a U.S. company for the endeavor | Weeks | Converts the plan from aspiration to progress (prong 2 & 3) |
-| **Texas P.E. licensure** (if not held) | 6–18 months | Exceptional-ability criterion C; credibility; required if you will offer engineering services in Texas |
-| **Contribute to an AACE Recommended Practice or standards committee** | 6–12 months | The strongest "adoption beyond your employer" evidence available in your field |
+| Accumulate Sulzer tenure on U.S. projects | ongoing | Directly answers risk #1 |
+| **Pass the FE exam**, then start the PE path | 3–9 months | A current U.S. credential; exceptional-ability criterion C |
+| Publish or present once — AIChE, process safety, biopolymers | 6–12 months | Creates a public technical record and a recommender pipeline |
+| Join AIChE / CCPS and become active in the South Texas section | now | U.S. independent recommenders; standing |
+| Get written permission from Sulzer to describe project work | now | Unblocks every project exhibit |
+| Define the endeavor around bio-based process safety | now | Prong 1 |
 
-**My candid recommendation:** if you currently have no publications, no
-certification beyond your degree, and no evidence of adoption beyond your own
-projects, **do not file yet.** Spend 6–9 months on the top three rows of that
-table and file a case that can survive an RFE, rather than filing now and
-spending the same nine months responding to one from a weaker position.
+Filing in 2028 with a licence, a publication, three years of U.S. process
+engineering and a defined endeavor is a **strong** petition. Filing in 2026 is a
+weak one, and a denial makes the 2028 filing harder, not easier.
 
 ---
 
-## Alternatives worth considering with an attorney
+## Alternatives to weigh with an attorney
 
-| Path | When it fits better |
+| Path | Fit for you |
 |---|---|
-| **EB-2 PERM** through a sponsoring employer | If you are in a stable role and your employer will sponsor. Slower, but a much lower evidentiary bar. Often the right answer for a practicing engineer. |
-| **EB-3 PERM** | Faster priority dates for some countries; lower requirements |
-| **EB-1A** | Only if you have genuinely extraordinary recognition. Higher bar than NIW. |
-| **O-1A** | Nonimmigrant, but a useful bridge; the criteria overlap heavily with what you would build for NIW |
-| **NIW later** | File after 6–12 months of building the record above |
+| **EB-2 PERM via Sulzer** | **Best current fit.** Ask HR first. |
+| **EB-3 PERM** | Lower bar; check the Visa Bulletin for Ukraine |
+| **NIW in 2028** | Realistic target once the record above exists |
+| **EB-1A** | Not available on this record |
+| **Ukraine-specific humanitarian or employment provisions** | Depends entirely on your current status — raise it with the attorney; I don't have your status |
 
-Ask an attorney to price out PERM against NIW for your situation before you
-commit. A well-advised engineer often files both paths in parallel.
+I'm not an attorney and this isn't legal advice. But you should have this
+assessment before you pay one, so the conversation starts in the right place.

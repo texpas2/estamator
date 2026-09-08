@@ -1,4 +1,62 @@
-# 01 — Intake Form (fill this first)
+# 01 — Intake Form
+
+## PART 0 — Known facts (from CV, Sept 2026)
+
+Confirmed from your CV and messages. Correct anything wrong.
+
+| Field | Value | Confirmed? |
+|---|---|---|
+| Full legal name | Oleksii Podolianchuk | ☐ (spelling as in passport?) |
+| Date of birth | 1985-08-04 | ☑ |
+| Address | 25003 Lenora Dr, Katy, TX 77493 | ☑ |
+| Phone / email | +1 551 248 3810 / oleksii.podolianchuk@gmail.com | ☑ |
+| Country of birth | **Ukraine (assumed — confirm)** | ☐ |
+| Country of citizenship / chargeability | **Ukraine (assumed — confirm)** | ☐ |
+| Current U.S. status | **UNKNOWN — required** | ☐ |
+| Degree | Bachelor of Science, Chemical Engineering, 2008 | ☑ |
+| Institution | Donetsk National Technical University, Ukraine | ☑ |
+| EB-2 route | **Route 2** — bachelor's + 5 yrs progressive (see file 11) | ☑ |
+
+**Employment history**
+
+| Period | Employer | Title |
+|---|---|---|
+| 2026-01 – present | Sulzer | Project Engineer |
+| 2019 – 2025 | BestTileSolution LLC (own company), Katy TX | Owner |
+| 2015-08 – 2019-03 | Sakhalin Energy Investment Company Ltd. (Shell) | Senior Process Engineer |
+| 2012-03 – 2015-08 | PJSC "YUZHNIIGIPROGAZ", Ukraine | Senior Process Engineer |
+| 2009-03 – 2012-03 | PJSC "YUZHNIIGIPROGAZ", Ukraine | Process Engineer |
+
+Progressive post-baccalaureate experience in the specialty: **10 years
+(2009-03 → 2019-03)**, plus current Sulzer role. This comfortably exceeds the
+5-year requirement. The 2019–2025 gap does **not** disqualify Route 2 — the five
+years need only exist, not be continuous or recent.
+
+**Current Sulzer projects (need detail for the petition)**
+
+| Project | What I still need |
+|---|---|
+| ExxonMobil | Site, unit, your scope, project phase, TIC, dates |
+| BioFlux — Tulsa, Oklahoma | Product/process, capacity, your scope, phase |
+| PLA plant — Kazakhstan | Capacity, licensor, your scope, phase |
+
+> **Note on the PLA project:** it is in **Kazakhstan**, not the United States.
+> Foreign-sited work does not help prong 1 (national importance *to the U.S.*)
+> and can hurt if the endeavor looks internationally mobile. Feature the U.S.
+> work — ExxonMobil and BioFlux Tulsa — and mention Kazakhstan only as evidence
+> of your technical capability, not as part of the proposed endeavor.
+
+> **Note on BioFlux:** if this is bio-based / renewable chemicals or fuels, it is
+> your **strongest prong-1 asset** — it connects to domestic bio-manufacturing
+> and renewable feedstock policy far more naturally than conventional gas
+> processing does. Tell me what the plant makes.
+
+**Still missing and required:** current U.S. immigration status; citizenship;
+spouse/children; prior petitions; whether you hold any U.S. licence (FE/PE) or
+certification; publications; whether you have Sulzer's permission to describe
+project work.
+
+---
 
 Answer every line. Where a line says **[EVIDENCE]**, name the document that
 proves it — that document becomes an exhibit. If you cannot name a document,
@@ -132,10 +190,11 @@ U.S. design content: (which office did the design? which engineers stamped it?)
   (Baytown, Beaumont, Baytown Olefins Plant, Corpus Christi Polymers)? Which
   unit? Which years? Were you employed by ExxonMobil or by an EPC contractor
   working for them?
-- `{{PROJECT_BOFLUX}}` — you said "Boflux" / "Bofluks". I could not identify this
-  from the transcript. Please give the exact spelling and the owner company.
-  (If this is a fabricator, module yard, or licensor, say so — it changes how it
-  is characterized in the petition.)
+- `{{PROJECT_BIOFLUX}}` — **resolved: BioFlux, Tulsa, Oklahoma**, via Sulzer.
+  Still needed: what the plant produces, its capacity, the project phase, and
+  your specific scope.
+- `{{PROJECT_PLA}}` — PLA (polylactic acid) plant, Kazakhstan, via Sulzer.
+  Foreign-sited; see the note in Part 0 before featuring it.
 
 ---
 

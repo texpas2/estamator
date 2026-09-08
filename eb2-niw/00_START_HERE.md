@@ -1,7 +1,7 @@
 # EB-2 National Interest Waiver (NIW) — Self-Petition Package
 
-**Petitioner / Beneficiary:** {{FULL_LEGAL_NAME}}
-**Field of endeavor:** Project & cost engineering for U.S. process-industry capital projects (petrochemical / refining / energy infrastructure), Texas Gulf Coast
+**Petitioner / Beneficiary:** Oleksii Podolianchuk
+**Field of endeavor:** Process and project engineering for gas processing, LNG and bio-based chemical facilities (Texas Gulf Coast / U.S.)
 **Prepared:** {{DATE}}
 **Status:** DRAFT — requires your data + immigration-attorney review before filing
 
@@ -98,14 +98,30 @@ dominated by recommendation letters and credential evaluation.
 
 ---
 
+## Discipline correction — read this
+
+An earlier draft of this package was framed around **cost and estimating
+engineering**. Your CV establishes that you are a **process / process-safety
+engineer** (gas processing plants, gas compression, LNG, and now PLA and
+bio-based chemicals), with 10 years of pre-FEED / FEED / detailed design at
+Sakhalin Energy (Shell) and YUZHNIIGIPROGAZ, and a current Project Engineer role
+at Sulzer.
+
+Files `01`, `11` and `12` have been updated to your actual profile. Files `03`
+(petition letter), `04` (endeavor statement) and `09` (evidence sourcing) still
+carry the cost-engineering framing in places and need re-cutting to process
+engineering — the structure is correct, the subject matter is not.
+
 ## One caution specific to your profile
 
-Project engineering and cost estimating in the process industries is a
-**well-populated U.S. occupation with an established PERM path.** That is the
-hardest fact in your case and USCIS officers know it. Prong 3 is where petitions
-like yours are lost. Your case does not win on "energy is important to America" —
-every officer has seen that. It wins on **specific, documented, attributable
-contributions of yours** (procedures adopted beyond your own project, quantified
-schedule/cost/safety outcomes, standards work, published or taught methods) plus
-a concrete reason a labor certification is impractical for the endeavor you
-propose. Read `12_RFE_RISK_ASSESSMENT.md` honestly before you invest in filing.
+Process engineering in the U.S. energy sector is a **well-populated occupation
+with an established PERM path**, and USCIS officers know it. Prong 3 is where
+petitions like yours are lost. Your case does not win on "energy is important to
+America" — every officer has seen that. It wins on **specific, documented,
+attributable contributions of yours**, plus a concrete reason a labor
+certification is impractical for the endeavor you propose.
+
+You also have a **seven-year gap outside the engineering profession
+(2019–2025)** and only months back in the field. That is the single largest
+issue in your case. Read `12_RFE_RISK_ASSESSMENT.md` before you spend anything
+on filing.
